@@ -1,0 +1,3 @@
+
+         strcat(fizzbuzz,"fizz");
+      }
