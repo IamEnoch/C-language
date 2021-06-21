@@ -1,23 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
+
+int i,j;
+
+i = 1;
 
 int main()
 {
-    int k,z;
-    char a = '*';
-
-    for(k=5;k>=1;k--)
+do
+{
+    for(j=1;j<=i;j++)
     {
-        for(z=1;z<=5;z++)
-        {
-            if (z>=k)
-            {
-                printf("%c", a);
-            }
-            else
-            {
-                printf(" ");
-            }
-        }
-        printf("\n");
+        printf("%d", j);
     }
+    printf("\n");
+    i++;
+}
+while(i<=5);
 }
